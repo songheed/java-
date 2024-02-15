@@ -1,5 +1,7 @@
 package while_;
 
+import java.util.Scanner;
+
 public class Quiz03 {
 public static void main(String[] args) {
 //	쌀 100통이 저장되어 있는 창고에 암수 1쌍의 쥐가 있다.
@@ -29,12 +31,33 @@ public static void main(String[] args) {
 //	-최대 공약수 = 공약수 중에서 가장 큰 수
 	
 	
+//	=============================================================================
+//	어떤 수의 약수를 구하는 프로그램을 작성
+//	- 약수 = 어떤수를 정수로 나눌수 있는 수
+	
+
+//	Scanner input = new Scanner(System.in);
+//	int num =0;
+//	System.out.println("정수 입력 : ");
+//	num = input.nextInt();
+//	for(int i=1; i<num ; i++) {
+//		if(num%i == 0) {
+//			System.out.println("약수 : " +i);
+//		}
+//	}
+	
+//	=============================================================================
 	
 	
+//	1에서 1000까지의 자연수주에서 4로 나누어도 6으로 나누어도 나머지가 1인 수의 합을 출력하라.
 	
-	
-	
-	
+//	int sum =0;
+//	for(int i=1; i<1000; i++) {
+//		if(i % 6 == 1 && i % 4 ==1) {
+//			sum += i;
+//		}
+//	}
+//	System.out.println(sum);
 	
 	
 	
